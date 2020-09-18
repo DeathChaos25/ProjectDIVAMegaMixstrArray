@@ -38,7 +38,7 @@ namespace MegaMixstrArray
                 ///store all strings in strArray on List
                 for (int i = 0; i < numOfPointers; i++) 
                 {
-                    strArrayStringPointers[i] = strArray.ReadUInt32(); //pointers are relative
+                    strArrayStringPointers[i] = strArray.ReadUInt32();
                     // Console.WriteLine("Pointer # " + i.ToString()+ " points to " + strArrayStringPointers[i].ToString());
                 }
                 for (int i = 0; i < numOfPointers; i++)
